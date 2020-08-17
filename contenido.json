@@ -1,0 +1,90 @@
+{"contenido":[
+
+		{"tag": "saludo",
+			"patrones": ["hola", "un saludo", "hello", "¿qué tal?"],
+			"respuestas": ["¡Hola! ¿qué tal?", "¿Cómo te va?", "Un gusto verte"]
+		},
+		{"tag": "despedida",
+			"patrones": ["hasta la próxima", "nos vemos", "hasta luego", "adiós"],
+			"respuestas": ["Cuídate", "Nos vemos pronto", "Te estaré esperando"]
+		},
+		{"tag": "nombre",
+			"patrones": ["¿Cómo te llamas?", "¿Cuál es tu nombre?", "¿Cómo quieres que te diga?", "Dime tu nombre"],
+			"respuestas": ["Me llamo Med-assist y seré tu asistente médico", "Mi nombre es Med-assist", "Algunos me llaman Med-assist"]
+		},
+		{"tag": "hospitales",
+			"patrones": ["Me mostrarías algunos hospitales", "hospitales cercanos", "¿A dónde puedo ir?", "lugares", "clínicas", "atención médica"],
+			"respuestas": ["¡Claro que puedo ayudarte! ingresa el municipio donde vives o tu código postal", "¡Con gusto! dime tu municipio o tu código postal"]
+		},
+		{"tag": "hamatitlán",
+			"patrones": ["01063", "Amatitlán"],
+			"respuestas": ["Algunos centros de atención en tu zona son: Hospittalia Amatitlán, Hospital Corpomedic Amatitlán, Hopsital Nacional de Amatitlán, Hospital El Rosario, Hospital Santa Clara y el IGSS"]
+		},
+		{"tag": "hchinautla",
+			"patrones": ["01055", "Chinautla"],
+			"respuestas": ["No se encuentran datos de centros médicos en esta región; sin embargo algunos centros cercanos son: Clínica Santa María Guatemala, Centro Médico de Guatemala y el Hospital Herrera Llerandi Amedesgua"]
+		},
+		{"tag": "hchuarrancho",
+			"patrones": ["01071","01061", "Chuarrancho"],
+			"respuestas": ["Algunos centros de atención médica en su zona son: Clínica del hermano Danny y la Cínica Médica Comunitaria. DR. XITUMUL"]
+		},
+		{"tag": "hcdguatemala",
+			"patrones": ["01001", "01002","01003","01004","01005","01006","01007","01008","01009","01010","01011","01012","01013","01014","01015","01016","01017","01018","01019","01020","01021","01022","01023","01024","01025","Ciudad de Guatemala", "Guatemala"],
+			"respuestas": ["Algunos centros de atención médica cercanos a tu zona son: Multimédica, Hospital la Merced, Hospital Herrera Llerandi, Nuestra Señora del Pilar, Hospital Roosevelt, Hospital Maranatha, Cruz Roja, Centro Médico, La Paz, Sanatorio Hermano Pedro, Unidad de Oncología Pediátrica, entre otros"]
+		},
+		{"tag": "hfraijanes",
+			"patrones": ["01062", "Fraijanes"],
+			"respuestas": ["Algunos centros de atención médica cercanos a tu zona son: Clínica Médica Huguito, Centro de Salud Fraijanes, Hospital Municipal de Fraijanes y el IGSS Fraijanes"]
+		},
+		{"tag": "hmixco",
+			"patrones": ["01057", "Mixco"],
+			"respuestas": ["Algunos centros de atención médica cercanos a tu zona son: Hospital Materno Infantil Juan Pablo II, Centro Médico Renacer, Centro Hosptalario La Paz Eskala, Hospital Municipal de Mixco, Hospital Valle del Sol, Hospital San Cristóbal, Hospital Santa Inés, Hospital el Naranjo, entre otros"]
+		},
+		{"tag": "hpalencia",
+			"patrones": ["01054","01068", "Palencia"],
+			"respuestas": ["Algunos centros de atención médica cercanos a tu zona son: Centro de Atención Permanente, Centro de Salud el Paraíso, Centro de Salud Palencia, Clínica la Divina Providencia y Clínica Dr, Morán"]
+		},
+		{"tag": "hsjsgolfo",
+			"patrones": ["01053", "San José del Golfo"],
+			"respuestas": ["Algunos centros de atención médica cercanos a tu zona son: Centro de Salud San José del Golfo y Puesto de Salud el Cualote"]
+		},
+		{"tag": "hsjpinula",
+			"patrones": ["01052", "San José Pinula"],
+			"respuestas": ["Algunos centros de atención médica cercanos a tu zona son: Hospital Luz de Vida, Hospital de día Shaddai, Sanatorio la Misión, Punto Médico San José, Centro de Salud San José Pinula, IGSS San José Pinula y Centro Médico Familiar Da Vinci"]
+		},
+		{"tag": "hsjnsacatepequez",
+			"patrones": ["01059", "San Juan Sacatepéquez"],
+			"respuestas": ["Algunos centros de atención médica cercanos a tu zona son: Unidad Asistencial, Centro Médico Familiar, Centro de Salud San Juan, Unimédica San Juan Sacatepéquez, Centro de Salud Bárbara"]
+		},
+		{"tag": "hsmpetapa",
+			"patrones": ["01066", "San Miguel Petapa", "Petapa"],
+			"respuestas": ["Algunos centros de atención médica cercanos a tu zona son: Sanatorio Médica Centro y Centro de Salud San Miguel Petapa"]
+		},
+		{"tag": "hspayampuc",
+			"patrones": ["01056", "San Pedro Ayampuc"],
+			"respuestas": ["Algunos centros de atención médica cercanos a tu zona son: Puesto de Salud Lagunilla"]
+		},
+		{"tag": "hspsacatepequez",
+			"patrones": ["01058", "San Pedro Sacatepéquez"],
+			"respuestas": ["Algunos centros de atención médica cercanos a tu zona son: Hospital Betel, Medi Centro San Pedro, Sanatorio Boror, Clínica Doctor Soto, Dr. mateu Tepeu, Centro de Salud San Pedro Sacatepéquez, Clínica de Especialidades Médicas"]
+		},
+		{"tag": "hsraymundo",
+			"patrones": ["01070","01060", "San Raymundo"],
+			"respuestas": ["Algunos centros de atención médica cercanos a tu zona son: Centro Clínico San Raymundo y Centro de Salud San Raymundo"]
+		},
+		{"tag": "hscpinula",
+			"patrones": ["01051","01073", "Santa Catarina Pinula"],
+			"respuestas": ["Algunos centros de atención médica cercanos a tu zona son: Hospital Santa Catarina Pinula, Sanatorio MediGrup, Hospital Concepción y Hospital IGSS"]
+		},
+		{"tag": "hvillacanales",
+			"patrones": ["01072","01069","01065", "Villa Canales"],
+			"respuestas": ["Algunos centros de atención médica cercanos a tu zona son: Clínica Médica Villa Canales, IGSS Periférica Villa Canales, Clínica Médica Casa de la Salud, Clínica Médica Jehová Rapha y Hosptal Westmont Bethel"]
+		},
+		{"tag": "hvillanueva",
+			"patrones": ["01064", "Villa Nueva"],
+			"respuestas": ["Algunos centros de atención médica cercanos a tu zona son: Hospital Villas de San Francisco, Hospital Nacional Especializado de Villa Nueva, Sanatorio la Villa, Sanatorio San Rafael, Centro de Salud de Villa Nueva IGSS Villa Nueva, Sanatorio Villa Hermosa, entre otros"]
+		}
+
+	]
+
+}
